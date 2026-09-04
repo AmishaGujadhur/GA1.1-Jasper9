@@ -7,3 +7,5 @@ Function subtracts value b from value a, will accept any input, may cause an err
 
 C-base-function: Added function multiply. Takes two variables and returns multiplication. Accepts every input, so runs into errors when input is not int or float 
 
+B-extended function: Added sum_list function, where it adds all values in a list. Input should be int.
+
