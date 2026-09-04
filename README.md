@@ -13,4 +13,6 @@ Add extension to multiply function. Function take one variable and returns the s
 
 B-extended function: Added sum_list function, where it adds all values in a list. Input should be int.
 
+Check fork bonus assignment
+
 
