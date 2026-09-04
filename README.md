@@ -6,5 +6,6 @@ add-branch (A-base-function): Added addition function. Takes two variables and r
 Function subtracts value b from value a, will accept any input, may cause an error when using non-int/float values
 
 C-base-function: Added function multiply. Takes two variables and returns multiplication. Accepts every input, so runs into errors when input is not int or float 
+
 Add extension to multiply function. Function take one variable and returns the square. Input should be int or float. 
 
