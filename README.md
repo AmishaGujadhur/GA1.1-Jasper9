@@ -1,16 +1,59 @@
 # GA1.1-Jasper9
-group assignment 1.1
 
-add-branch (A-base-function): Added addition function. Takes two variables and returns sum. Input should be int or float. 
+Group assignment 1.1: basic arithmetic functions implemented in the notebooks in `notebooks/`.
 
-Function subtracts value b from value a, will accept any input, may cause an error when using non-int/float values
+## Functions
 
-The distance from zero function measures how far the number is from 0. This function will accept any int/float values and will cause an error for any other values.
+### `add(a, b)`
 
-C-base-function: Added function multiply. Takes two variables and returns multiplication. Accepts every input, so runs into errors when input is not int or float 
+- **Notebook:** `notebooks/add_function.ipynb`
+- **Input:** Two values, `a` and `b`, that support Python's `+` operator. Integers and floats are the intended inputs.
+- **Output:** The sum `a + b`.
+- **Example:** `add(2, 6)` returns `8`.
+- **Errors:** Raises a Python `TypeError` when the inputs cannot be added.
 
-Add extension to multiply function. Function take one variable and returns the square. Input should be int or float. 
+### `sum_list(values)`
 
-B-extended function: Added sum_list function, where it adds all values in a list. Input should be int.
+- **Notebook:** `notebooks/add_function.ipynb`
+- **Input:** An iterable of values. The intended input is a list of integers.
+- **Output:** The sum of all values in `values`. An empty iterable returns `0`.
+- **Example:** `sum_list([1, 2, 3])` returns `6`.
+- **Errors:** Raises an error when `values` is not iterable or when one of its values cannot be added to the running total.
+
+### `multiply(a, b)`
+
+- **Notebook:** `notebooks/multiply.ipynb`
+- **Input:** Two values, `a` and `b`, that support Python's `*` operator. Integers and floats are the intended inputs.
+- **Output:** The product `a * b`.
+- **Example:** `multiply(3, 4)` returns `12`.
+- **Errors:** Raises a Python `TypeError` when the inputs cannot be multiplied.
+
+### `square(x)`
+
+- **Notebook:** `notebooks/multiply.ipynb`
+- **Input:** One value, `x`, that can be multiplied by itself. Integers and floats are the intended inputs.
+- **Output:** The square `x * x`.
+- **Example:** `square(7)` returns `49`.
+- **Errors:** Raises an error when `x` cannot be multiplied by itself.
+
+### `subtract(a, b)`
+
+- **Notebook:** `notebooks/subtract.ipynb`
+- **Input:** Two values, `a` and `b`, that support Python's `-` operator. Integers and floats are the intended inputs.
+- **Output:** The difference `a - b`.
+- **Example:** `subtract(5, 3)` returns `2`.
+- **Errors:** Raises a Python `TypeError` when the inputs cannot be subtracted.
+
+### `distance_from_zero(x)`
+
+- **Notebook:** `notebooks/subtract.ipynb`
+- **Input:** One numeric value, `x`.
+- **Output:** The value of `x - 0`. For numeric inputs, this is the signed distance from zero as implemented by the function.
+- **Example:** `distance_from_zero(5)` returns `5`.
+- **Errors:** Raises an error when `x` cannot be subtracted from zero.
+
+## Notes
+
+The functions do not perform explicit type validation. Their behavior depends on the corresponding Python arithmetic operator, so unsupported input types may raise `TypeError` or another operator-specific exception.
 
 
