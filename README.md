@@ -56,4 +56,6 @@ Group assignment 1.1: basic arithmetic functions implemented in the notebooks in
 
 The functions do not perform explicit type validation. Their behavior depends on the corresponding Python arithmetic operator, so unsupported input types may raise `TypeError` or another operator-specific exception.
 
+Check fork bonus assignment
+
 
