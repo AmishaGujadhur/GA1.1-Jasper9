@@ -9,3 +9,5 @@ The distance from zero function measures how far the number is from 0. This func
 
 C-base-function: Added function multiply. Takes two variables and returns multiplication. Accepts every input, so runs into errors when input is not int or float 
 
+B-extended function: Added sum_list function, where it adds all values in a list. Input should be int.
+
